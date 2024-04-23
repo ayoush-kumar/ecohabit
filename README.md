@@ -81,6 +81,24 @@ If you prefer the command line way of downloading and installing things, then fe
   - The page will reload if you make edits.
   - You will also see any lint errors in the console.
 
+### MongoDb Setup Instructions
+  
+  
+  ### Install MongoDB:
+     - Visit the MongoDB website and download the appropriate installer for your operating system.
+  
+  ### Start MongoDB Server:
+     - After installation, start the MongoDB server. The method for starting the server varies depending on your operating system.
+  
+  ### Create a Database:
+     - In your project, decide on the name of your MongoDB database.
+     - In the MongoDB shell, switch to the desired database using the use <databaseName> command. If the database does not exist, MongoDB will create it when you first write data to it.
+  
+  ### Connect to MongoDB from Your Application:
+     - Install a MongoDB driver for your programming language. There are official MongoDB drivers available for most popular programming languages.
+     - Use the connection string provided by MongoDB to connect to your database. This string typically includes information such as the host, port, and database name.
+     - Initialize a connection to MongoDB in your application code using the provided driver and the connection string.
+
 ## Roadmap
 
 - _List any features planned_
